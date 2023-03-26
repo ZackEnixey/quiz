@@ -1,0 +1,262 @@
+{
+    "questions": [
+        {
+            "type": "RADIO_QUESTION",
+            "question": "What is the value of maxNumberSearchResultsPerElementByUtil if it is INSIDE of Repeatable Group Element",
+            "answer": ["1,000", "10,000", "5,000", "15,000", "100,000"],
+            "correctAnswer": 1
+        },
+        {
+            "type": "RADIO_QUESTION",
+            "question": "Do “Group Elements” have tab “parameters” in their settings",
+            "answer": ["No. (Only the “Page” group-search-element has it. Others do not have a “parameters” tab)", "Yes. (all the elements must have it)"],
+            "correctAnswer": 0
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "What types of Search Elements exist",
+            "answer": "Groups; Text mining; Image mining; Predefined templates"
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Name all TEXT MINING elements",
+            "answer": "Term; Tier Term, Alphabet, Label, RegEx, Paragraph, Read all text, Date"
+        },
+        {
+            "type": "RADIO_QUESTION",
+            "question": "What is the value of maxNumberOfInvalidItemsInInstances if an element is inside of a Repeatable Group search element",
+            "answer": ["1", "10", "20", "25", "50", "100"],
+            "correctAnswer": 2
+        },
+        {
+            "type": "RADIO_QUESTION",
+            "question": "If we want to extract checkbox button values or radio button values, which search element from Groups will we use",
+            "answer": ["Checkbox", "Repeatable", "Tier", "Line"],
+            "correctAnswer": 0
+        },
+        {
+            "type": "RADIO_QUESTION",
+            "question": "Which “Image Mining” search element is the only one that has the “Parameters” tab",
+            "answer": ["Checkbox", "Line", "Tier term", "Alphabet"],
+            "correctAnswer": 1
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Name all GROUPS elements",
+            "answer": "Simple, Repeatable, Cascade, Check box, Key value pair"
+        },
+        {
+            "type": "RADIO_QUESTION",
+            "question": "Can we use “designer” for searching for handwritten signatures",
+            "answer": ["Yes. We can use Signature", "No"],
+            "correctAnswer": 0
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Name all IMAGE MINING elements",
+            "answer": "Line, Rectangle, Signature, Bar code"
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Name all TABLE TEMPLATES elements",
+            "answer": "Table Template, US Address, Label-value"
+        },
+        {
+            "type": "RADIO_QUESTION",
+            "question": "Which graph type is used from “antd“ library for the “Extraction execution workflow”",
+            "answer": ["<ScatterChart />", "<FlowAnalysisGraph />", "<LineChart />", "<BarChart />"],
+            "correctAnswer": 1
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "List all the tabs that we  can have in the Settings of some “search element”",
+            "answer": "Parameters, Details, Relations, Filters"
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "3 out of 4 tabs in the Settings of a “search element” have the same fields. Which ones? (these counts for Image mining and for text mining)",
+            "answer": "Details, Relations, Filters"
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "List all “Text Mining” elements that have the same fields in the “Parameters tab”",
+            "answer": "Date, Tier, Tier Term, Label, RegEx"
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Group elements have only two tabs in settings. Which ones",
+            "answer": "Details. Relations"
+        },
+        {
+            "type": "RADIO_QUESTION",
+            "question": "I want to allow only specific characters “#$%” to be found and I want to disallow “^&” characters. Which search element will I use?",
+            "answer": ["Term", "Alphabet", "Label", "Paragraph", "Tier Term", "Read all text", "Date", "RegEx"],
+            "correctAnswer": 1
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Why is “simple group element” used",
+            "answer": "Simple group search element definition is used to group multiple simple elements such as terms, labels, date times, regex values, and rectangle elements."
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Why is “repeatable group element”",
+            "answer": "Repeatable group search element definition is used to extract groups of repeatable items (structured such as tables and unstructured also)."
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "What does the “date” search element do?",
+            "answer": "The “Date” time search element definition is used to extract date time fields from a source file (document)."
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "What does the “Read all text” search element do?",
+            "answer": "Read any text search element definition is designed to take all text from a specified search area, regardless of how far are some parts of the text. Element provides controls for specifying the maximum allowed multi-lines, words count, etc."
+        },
+        {
+            "type": "RADIO_QUESTION",
+            "question": "If we have a table in the document which “Group element would we use to process it",
+            "answer": ["Simple", "Cascade", "Repeatable", "Check box", "Key value pair" ],
+            "correctAnswer": 2
+        },
+        {
+            "type": "RADIO_QUESTION",
+            "question": "Why is the “Term” search element used",
+            "answer": ["To find handwritten text", "To find a static text/term from a page.", "To find paragraphs"],
+            "correctAnswer": 1
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Where can we see the “Maintainability index” and “Performance index”",
+            "answer": "Inside of an LDED summary"
+        },
+        {
+            "type": "RADIO_QUESTION",
+            "question": "Which search element would we use If we want to find “static text”",
+            "answer": ["Term",  "RegEx", "Alphabet", "Label", "Paragraph", "Tier Term", "Read all text", "Date"],
+            "correctAnswer": 5
+        },
+        {
+            "type": "RADIO_QUESTION",
+            "question": "Which search element will we use if we want to search for a whole paragraph on some page",
+            "answer": ["Term",  "RegEx", "Alphabet", "Label", "Tier Term", "Read all text", "Date", "Paragraph"],
+            "correctAnswer": 7
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Which types of Algorithms exist",
+            "answer": "Classification and Extraction algorithms"
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "How many classification algorithms are allowed",
+            "answer": "Endless. But to run “batch-extraction” we need to have only ONE CDED or otherwise, it will throw errors."
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Where can you export LDED",
+            "answer": "There are 3 main columns in the “Designer”, in the middle column we can see all the Algorithms (CDEDs and LDEDs) listed. When one of the algorithms is expanded we can see the list of “actions”: Try-extraction, Export LDED, Save… Field Structure, Debug, Delete, Close"
+        },
+        {
+            "type": "RADIO_QUESTION",
+            "question": "Can we use “designer” for searching horizontal or vertical lines",
+            "answer": ["Yes. We can use the LINE search element", "No. It will cause an error"],
+            "correctAnswer": 0
+        },
+        {
+            "type": "RADIO_QUESTION",
+            "question": "Can we use “designer” for searching for barcodes",
+            "answer": ["Yes", "No"],
+            "correctAnswer": 1
+        },
+        {
+            "type": "RADIO_QUESTION",
+            "question": "What is the value for cancellationTimeoutInSecs if it is INSIDE of any Group Search Element",
+            "answer": ["1", "400", "500", "600"],
+            "correctAnswer": 3
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Where can you Delete or Edit current LDED",
+            "answer": "There are 3 main columns in the “Designer”, in the middle column we can see all the Algorithms (CDEDs and LDEDs) listed. When one of the algorithms is expanded we can see the list of “actions”: Try-extraction, Export LDED, Save… Field Structure, Debug, Delete, Close So to delete an LDED you need to open it, expand it, go to the actions, and select “FIELD STRUCTURE”. That will open a modal where we have 2 tabs: “Field Structure” and “Extraction algorithms”. In the “Extraction algorithms,” we can see all the LDEDs and CDEDs listed, they are from the currently open Document-Definition. Each one will have a “Delete” button in the bottom right corner."
+        },
+        {
+            "type": "RADIO_QUESTION",
+            "question": "What is the value for cancellationTimeoutInSecs if it is OUTSIDE of any Group Search Element",
+            "answer": ["300", "400", "500", "600", "1000"],
+            "correctAnswer": 0
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Where can you extract LDED",
+            "answer": "There are 3 main columns in the “Designer”, in the middle column we can see all the Algorithms (CDEDs and LDEDs) listed. When one of the algorithms is expanded we can see the list of “actions”: Try-extraction, Export LDED, Save… Field Structure, Debug, Delete, Close"
+        },
+        {
+            "type": "RADIO_QUESTION",
+            "question": "What is the value of maxNumberSearchResultsPerElementByUtil if it is OUTSIDE of Repeatable Group Element",
+            "answer": ["1", "100", "1000", "10000", "100000"],
+            "correctAnswer": 3
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Where can we find the LDED summary",
+            "answer": "When we open any CDED or LDED in the middle of the designer page in the header there is an icon next to the “expand” button."
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "In which 3 columns is the Designer UI split",
+            "answer": "“Batch structure”, “Document Definition”, “Page Viewer”"
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Do we list definitions one-by-one inside the middle column of Designer, or do we list them All at once?",
+            "answer": "All from once. In the header, we can see the number of Definitions `${definitions.length} Definitions"
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "In the Designer, we have main 3 columns: “Batch structure”, “Document Definition”, and “Page Viewer”. Which tabs do we have in “Document Definitions",
+            "answer": "Extraction Definitions, Results, Designer Audit"
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Where can you find “Extraction Definitions”",
+            "answer": "Inside of Document Definitions section in the middle column of designer"
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Where can we find “Create new LDED”",
+            "answer": "in the HEADER of the middle column in the Designer (an icon on the right side)"
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "What can we find in Designer Audit",
+            "answer": "“Classification Report” and “Timing report”"
+        },
+        {
+            "type": "RADIO_QUESTION",
+            "question": "What is “OCR”",
+            "answer": ["Office of Civil Rights", "Optical Character Recognition", "Optical Crypto Reader", "Ohio Civil Rights Commission"],
+            "correctAnswer": 1
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Where is the “Classification report” on the designer page",
+            "answer": "in the middle column of the Designer in the “Designer Audit” tab"
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Where is the “Timing report” on the designer page",
+            "answer": "in the middle column of the Designer in the “Designer Audit” tab"
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "Where can we find “Create new document definition”",
+            "answer": "in the HEADER of the middle column in the Designer (an icon on the right side)"
+        },
+        {
+            "type": "DESCRIPTION_QUESTION",
+            "question": "What can we do In the Designer, In the “Field Structure” popup modal in the “Field Structure” tab",
+            "answer": "Have no idea, ask Ivan"
+        }        
+    ]
+}
