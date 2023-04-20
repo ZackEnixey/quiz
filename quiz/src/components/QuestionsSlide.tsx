@@ -10,8 +10,8 @@ interface IQuestionsSlide {
 
 const QuestionsSlide: FC<IQuestionsSlide> = (props) => {
   const { questionObject, counter, setCounter } = props;
-  let [animation, setAnimation] = useState<string | undefined>(undefined);
   let [toggleAnswer, setToggleAnswer] = useState<boolean>(false);
+  let [animation, setAnimation] = useState<string | undefined>(undefined);
   const initialCurrentQuestion =
     questionObject?.length > 0 ? questionObject[counter] : undefined;
   const [currentQuestion, setCurrentQuestion] = useState<any>(
